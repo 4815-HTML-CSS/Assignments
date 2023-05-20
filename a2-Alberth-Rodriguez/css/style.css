@@ -1,0 +1,43 @@
+html {
+    font-family: "Helvetica", sans-serif;
+}
+
+body {
+    margin: 1.5rem;
+    background-color: #E0FFFF;
+}
+
+h1 {
+    color: #C71585;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+h2 {
+    color: #00CED1;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+a {
+    color: #DB7093;
+    text-decoration: none;
+}
+
+header, nav, main, footer {
+    background-color: white;
+}
+
+h1, h2 {
+    border: 2px solid #00CED1;
+}
+
+li ul {
+    background-color: #FFFACD;
+    font-family: cursive;
+}
+
+/* .deeplist {
+    background-color: #FFFACD;
+    font-family: cursive;
+} */
