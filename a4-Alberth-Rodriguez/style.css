@@ -1,0 +1,186 @@
+html{
+    font-family: 'Open Sans',    sans-serif;
+    font-family: 'Exo 2',    sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Exo 2',    sans-serif;
+    font-weight: 600;
+}
+
+.tagline{
+    font-family: 'Exo 2',    sans-serif;
+    font-style: italic;
+    /* font-style: oblique; */
+    font-size: 68%;
+    font-weight: normal;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-image: url("../images/pexels-philippe-donn-1257860.jpg");
+    background-color: #cccccc;
+   }
+
+.h1-1{
+    color: #4169E1;
+    font-weight: bolder;
+}
+
+.contact{
+    color: #0000EE;
+}
+
+.wrapper{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* text-align: center; */
+}
+
+h2{
+    color: #4169E1;
+
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    /* max-width: 100%; */
+    /* text-align: center; */
+}
+
+nav > ul > li{
+    /* display: inline-block; */
+    -webkit-text-fill-color: #FF6347;
+    /* background-color: crimson; */
+    /* grid-gap: 1rem; */
+    /* margin: 1rem; */
+    border: #4169E1 1px solid;
+    /* border-color: #4169E1; */
+    padding: 0.5rem;
+    /* width: 100px; */
+    text-align: left;
+    font-weight: 600;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+aside{
+    background-color: #D9E1F9;
+    padding: 1rem;
+}
+
+main > div{
+    /* padding: 1rem; */
+    padding-bottom: 1rem;
+    border-bottom: 1px groove #4169E1;
+    margin-bottom: 1rem;
+}
+
+.wrapper > h1{
+    padding-bottom: 1rem;
+    border-bottom: 1px groove #4169E1;
+    margin-bottom: 1rem;
+}
+
+.marg, h3{
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+/* aside > .nonline{
+    list-style-type: none;
+} */
+
+/* aside > ul {
+    padding: 0;
+    margin: 0;
+} */
+
+.main-wrapper{
+    display: grid;
+    /* grid-template-columns: 1fr 300px; */
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+/* a:link, a:visited, a:active  {
+    text-decoration: none;
+    color: #FF6347;
+} */
+
+.h3, .orange{
+    color: #FF6347;
+    text-decoration: none;
+}
+
+.orange11{
+    
+    color: #FF6347;
+    /* text-decoration: none; */
+    list-style-type: none;
+    display: flex;
+    /* float: left; */
+    justify-content: left;
+    /* margin: 0; */
+    padding: 0;
+}
+
+.orange1{
+    
+    color: #FF6347;
+    list-style-type: none;
+    /* justify-content: left; */
+    margin: 0.5rem;
+    font-size: x-large;
+    /* vertical-align: middle; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+}
+
+.footer-wrapper{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.black{
+    color: black;
+}
+/* .footer-wrapper > section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;551A8B
+} */
+
+.violet{
+    color: #551A8B;
+}
+
+.le{
+    padding: 0;
+    margin: 1rem;
+}
