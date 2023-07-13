@@ -1,0 +1,175 @@
+input, label, textarea {
+    display: block;
+}
+
+textarea {
+    width: 70%;
+    resize: vertical;
+}
+
+html{
+    font-family: Mukta;
+}
+
+h1 {
+    font-family: Saira Condensed;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    /* padding: 0; */
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: Saira Condensed;
+    text-align: center;
+    border-top: dotted #929EB1;
+    border-bottom: dotted #929EB1;
+    padding: 0.5rem;
+}
+
+header > p {
+    text-align: right;
+    padding-right: 1rem;
+    padding-bottom: 0.3rem;
+} 
+
+body{
+    background-color: #2B2D42;
+    margin: 0;
+    padding: 0;
+    /* margin-top: 0; */
+    padding-top: 0;
+}
+
+header{
+    background-color: #EDF2F4;
+    /* padding-top: 0; */
+    /* margin-top: 0; */
+    /* padding: 0;
+    margin: 0; */
+}
+h1 , h2 {
+    color: #D90429;
+}
+
+.fp, .cu{
+    background-color: #EDF2F4;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #BDC2C8;
+    padding: 2rem;
+}
+
+.date > div > label,input{
+    display: inline;
+}
+
+.date > div {
+    display: inline;
+}
+
+.categ > div > label,input{
+    display: inline;
+}
+
+.categ > div {
+    display: inline;
+}
+
+.article {
+    /* margin: 1rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+label{
+    margin: 0.3rem;
+}
+
+.inpu {
+    width: 100%;
+}
+
+/* .button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.button > input{
+    display:block;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+.blue{
+    /* color: #2B2D42; */
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+.grey{
+    /* color: #2B2D42; */
+    background-color: #E9E9ED;
+    color: #000000;
+    border-radius: 5px;
+    /* border: 0; */
+    
+}
+
+
+@media screen and (min-width: 900px){
+    main{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .article{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: right;
+    }
+    .date, .categ{
+        text-align: left;
+    }
+    header{
+        text-align: center;
+    }
+    header > p{
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    h1{
+        padding: 4rem;
+        margin-bottom: 0;
+        font-size: 4rem;
+    }
+
+    
+    .button {
+        max-width: 70%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: auto;
+    }
+    .button > input {
+        font-weight: bold;
+    }
+
+}
+
+
+
