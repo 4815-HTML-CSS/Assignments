@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&family=Ubuntu&display=swap');
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header, nav, main {
+    padding:.5rem;
+}
+
+header {
+    padding-top:4em;
+    background-image: url("https://images.unsplash.com/photo-1606503153255-59d8b8b82176");
+    background-size: cover;
+    background-position: 50% 60%;
+    text-align: center;
+}
+
+nav ul,main,header h1{
+    max-width:800px;
+    margin:auto;
+}
+
+h1 {
+    background-color: rgba(20,20,20,.6);
+    color:#BDBBB6;
+    padding:.5rem;
+    border-radius: 20px;
+}
+
+h2, h3, caption {
+    color:#165D5E;
+}
+
+h4 {
+    margin-top: 1rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color:#165D5E;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #F5E4D7;
+    border-bottom:1px solid rgba(0,0,60,.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+}
+
+#relative-example div {
+    background-color: #F5E4D7;
+    padding:.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,.3) ;
+}
+
+#absolute-example div {
+    color:white;
+    background-color: rgba(0,0,0,.8);
+    padding:.5rem;
+}
+
+aside {
+    background-color: #F5E4D7;
+    padding:1rem;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+    border-radius:5px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+h4 {
+    border-bottom: 1px solid rgba(0,0,60,.3);
+    margin-top:2rem;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.tableBox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 800px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.tableBox tr th {
+    border: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #165D5E;
+    background-color: #F6F0EC;
+    padding: 0.5rem;
+}
+
+.tableBox .top th{
+    background-color: #839788;
+    color: #FFFFFF;
+}
+.tableBox td {
+    border: 1px solid black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 0.3rem;
+}
+
+.tableBox code {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.tableBox caption{
+    text-align: left;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+    font-weight: 550;
+}
+
+
+
+
+@media screen and (min-width:800px) {
+
+    header {
+        font-size: 2rem;
+        padding-top:7em;
+    }
+
+    nav {
+        text-align: right;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right:1rem;
+    }
+    .nav{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    #relative-example div{
+        position: absolute;
+        margin-left: 22.5rem;
+        max-width: 380px;
+
+        
+    }
+
+    #relative-example {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        margin: 1rem;
+    }
+
+    #absolute-example div {
+        background-color: rgba(0,0,0,.6);
+    }
+    #absolute-example {
+        position: relative;
+        bottom: 5px;
+        right: 10px;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    #absolute-example img {
+        width: 100%;
+        height: 100%;
+    }
+    #absolute-example div {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    }
+
+}
